@@ -2,13 +2,25 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "generate-unique-id": "^2.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingkevin05/Express.js-Challenge-Note-Taker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/kingkevin05/Express.js-Challenge-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/kingkevin05/Express.js-Challenge-Note-Taker#readme"
 }
